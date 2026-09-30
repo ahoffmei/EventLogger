@@ -1,11 +1,13 @@
 import argparse
 import pathlib
 import csv 
+import pandas as pd 
 
 class GenReport:
     def __init__(self, file_path):
         self.file_path = file_path
         self.data = []
+
 
     def parse(self):
         lines = [] 
